@@ -1,7 +1,7 @@
 # Wayfinder Travel Planner
 
 Client-side web development mini-project built with HTML5, CSS3, JavaScript, jQuery, and the Open-Meteo public weather API.
-Repository: https://github.com/Merue-cmd-7/wayfinder-travel-planner
+Repository: https://github.com/Merue-cmd-7/wayfinder-travel-planner1
 
 ## Pages
 - `index.html`: Home page with destination overview, travel style cards, and live city temperature lookup via Open-Meteo.
