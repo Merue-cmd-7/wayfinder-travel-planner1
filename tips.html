@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wayfinder Travel Planner | Packing &amp; Tips</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-container" aria-label="Main Navigation">
+      <a href="index.html" class="brand">Wayfinder Travel Planner</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home &amp; Weather</a></li>
+        <li><a href="planner.html">Trip Planner</a></li>
+        <li><a href="tips.html" class="active">Packing &amp; Tips</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1>Pack Smarter &amp; Prepare With Confidence</h1>
+        <p>Build a custom interactive packing checklist for your upcoming destination and follow practical budgeting and preparation tips before you depart.</p>
+        <div class="hero-actions">
+          <a href="planner.html" class="btn btn-outline">Manage Saved Trips</a>
+        </div>
+      </div>
+      <div>
+        <img src="images/coastal-escape.svg" alt="Ocean waves and sun illustration representing holiday preparation">
+      </div>
+    </section>
+
+    <section id="checklist-section" class="grid-2">
+      <article class="card">
+        <h2>Interactive Packing Checklist</h2>
+        <p class="muted-text">Add items to your packing list, click an item to mark it packed, or remove items you no longer need.</p>
+
+        <div class="inline-form-bar">
+          <label for="packing-input" class="sr-only">Packing item</label>
+          <input type="text" id="packing-input" placeholder="e.g. Universal Travel Adapter">
+          <button type="button" id="add-packing-btn" class="btn btn-accent">Add Item</button>
+        </div>
+
+        <ul id="packing-list" class="checklist"></ul>
+      </article>
+
+      <article class="card">
+        <h2>Essential Travel Planning Tips</h2>
+        <div class="tips-stack">
+          <div>
+            <h3>1. Check Weather Trends Early</h3>
+            <p>Review temperature forecasts on the Home page before choosing cabin-only luggage.</p>
+          </div>
+          <div>
+            <h3>2. Keep a Buffer in Your Trip Budget</h3>
+            <p>Local transit passes, tourist taxes, and airport transfers quickly add up on short city breaks.</p>
+          </div>
+          <div>
+            <h3>3. Store Digital Copies of Key Documents</h3>
+            <p>Save offline copies of passport details, hotel confirmations, and travel insurance before departure.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Wayfinder Travel Planner | COMP H1035 Client-Side Web Development</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
